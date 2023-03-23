@@ -15,6 +15,13 @@ class Livro{
 }
 
 var obj_livro1 = new Livro("Use a cabeça Java", 300)
-obj_livro1.calcularDesconto(10)
-console.log("Nome do livro: "+ obj_livro1.nome)
-console.log("Preço: "+ obj_livro1.preco)
+var obj_livro2 = new Livro("Use a cabeça C#", 200)
+
+var lista = []
+
+lista.push(obj_livro1)
+lista.push(obj_livro2)
+
+console.log(lista[1])
+
+
