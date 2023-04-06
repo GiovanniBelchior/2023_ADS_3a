@@ -1,11 +1,7 @@
 //fazer a importação do express
 const express = require('express');
 
-//Rotas (quando o servidor for acessado, pra onde ele vai ?)
-const router = express.Router();
-router.get('/',(req,res)=>{
-    res.send('olá Mundo !!!');
-});
+const router = require('./routes/index.js')
 
 //configurações basícas do aplicativo
 const app = express();
